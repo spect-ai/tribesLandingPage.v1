@@ -15,8 +15,7 @@ export default {
 .actionContainer {
   display: flex;
   flex-direction: row;
-  margin-top: 2rem;
-  margin-left: 5rem;
+  margin: 2rem 0 2rem 5rem;
 }
 
 .waitlistButton {

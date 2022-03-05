@@ -23,5 +23,7 @@ export default {
 body {
   padding: 0;
   margin: 0;
+  height: fit-content;
+  overflow-x: hidden;
 }
 </style>

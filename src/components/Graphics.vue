@@ -1,7 +1,7 @@
-<template>
+<template class="template-graphics">
   <div class="container-fluid mt-4">
     <div class="row">
-      <div class="col-7">
+      <div class="col-8">
         <div class="row">
           <div class="col d-flex flex-column align-items-center">
             <iframe
@@ -16,7 +16,7 @@
           <div class="col d-flex flex-column align-items-center">
             <iframe
               allowtransparency="true"
-              src="https://my.spline.design/epoch-ba24e2c70b4613c0f48949fe37944545/"
+              src="https://my.spline.design/epoch2-f586b2682c76a4b5cd4a48c3a5abe3f5/"
               frameborder="0"
               width="100%"
               height="100%"
@@ -26,7 +26,7 @@
           </div>
           <div class="col d-flex flex-column align-items-center">
             <iframe
-              src="https://my.spline.design/coins-1492e7e9b586a0009d2276bec9c0fa73/"
+              src="https://my.spline.design/coins2-15a02bbe78d293f166ec18b74a085dca/"
               frameborder="0"
               width="100%"
               height="100%"
@@ -36,10 +36,10 @@
           </div>
         </div>
       </div>
-      <div class="col-5">
+      <div class="col-4">
         <div class="col d-flex flex-column align-items-center">
           <iframe
-            width="600"
+            width="450"
             height="380"
             src="https://www.youtube.com/embed/IOfvhV31Hos"
             title="YouTube video player"
@@ -65,5 +65,9 @@ export default {
 .graphicsContainer {
   height: 24rem;
   background-color: transparent;
+}
+
+.template-graphics {
+  overflow: hidden;
 }
 </style>
