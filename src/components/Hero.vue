@@ -1,10 +1,11 @@
 <template>
-  <div class="heroContainer">
-    <div class="heroText">
-      <div>Manage your&nbsp;</div>
-      <del>DAO</del>
-      <div class="tribe">&nbsp;Tribe&nbsp;</div>
-      <div>with ease</div>
+  <div class="text-white">
+    <div
+      class="text-[1.5em] sm:text-[2em] md:text-[2.5em] lg:text-[3em] flex ml-16"
+    >
+      <div>Organize the&nbsp;</div>
+      <div class="tribe">&nbsp;Chaos&nbsp;</div>
+      <div>&nbsp;In your DAO&nbsp;</div>
     </div>
     <Graphics />
     <Actions />

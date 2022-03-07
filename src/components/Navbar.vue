@@ -2,7 +2,7 @@
   <div class="navbar">
     <div class="navbarContainer">
       <img
-        src="https://ipfs.moralis.io:2053/ipfs/QmXwQkaegqMCH3J3HYvHVkSjRJP83dLpzQxAuu9UGYQKEM"
+        src="https://ipfs.moralis.io:2053/ipfs/QmRnbkmvYthsi6bXpZ5j14yZyfuxgVD3SaokXNRrBRsyQw"
         alt="logo"
         class="logo"
       />

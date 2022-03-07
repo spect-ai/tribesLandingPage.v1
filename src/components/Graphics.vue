@@ -1,56 +1,57 @@
-<template class="template-graphics">
-  <div class="container-fluid mt-4">
-    <div class="row">
-      <div class="col-8">
-        <div class="row">
-          <div class="col d-flex flex-column align-items-center">
+<template>
+  <div class="grid sm:grid-cols-1 xl:grid-cols-5">
+    <div class="col-span-3">
+      <div class="grid md:grid-cols-7 sm:grid-cols-1">
+        <div class="md:col-span-2 flex flex-col justify-center items-center">
+          <div class="graphicsContainer">
             <iframe
-              src="https://my.spline.design/tasks-b89e87193da0254ceea2874fe7254e5f/"
+              src="https://my.spline.design/tasks-a6ad2faee70628e9036030d14d9d1d64/"
               frameborder="0"
               width="100%"
               height="100%"
-              class="graphicsContainer"
+              class="responsive-iframe"
             />
-            <div class="fs-5">Manage tasks</div>
           </div>
-          <div class="col d-flex flex-column align-items-center">
+          <div class="text-xl">Manage tasks</div>
+        </div>
+        <div class="md:col-span-3 flex flex-col justify-center items-center">
+          <div class="graphicsContainer">
             <iframe
               allowtransparency="true"
               src="https://my.spline.design/epoch2-f586b2682c76a4b5cd4a48c3a5abe3f5/"
               frameborder="0"
               width="100%"
               height="100%"
-              class="graphicsContainer"
+              class="responsive-iframe"
             />
-            <div class="fs-5">Value Contributions</div>
           </div>
-          <div class="col d-flex flex-column align-items-center">
+          <div class="text-xl">Value Contributions</div>
+        </div>
+        <div class="md:col-span-2 flex flex-col justify-center items-center">
+          <div class="graphicsContainer">
             <iframe
               src="https://my.spline.design/coins2-15a02bbe78d293f166ec18b74a085dca/"
               frameborder="0"
               width="100%"
               height="100%"
-              class="graphicsContainer"
+              class="responsive-iframe"
             />
-            <div class="fs-5">Pay in crypto</div>
           </div>
+          <div class="text-xl">Pay in crypto</div>
         </div>
       </div>
-      <div class="col-4">
-        <div class="col d-flex flex-column align-items-center">
-          <iframe
-            width="450"
-            height="380"
-            src="https://www.youtube.com/embed/IOfvhV31Hos"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-            class="mb-2"
-          />
-          <div class="fs-5">See it to believe it</div>
-        </div>
+    </div>
+    <div
+      class="col-span-2 flex flex-col justify-center items-center mt-16 sm:mt-8 xl:mt-4 ml-[5.5rem] md:mx-32 lg:mx-16 lg:mx-0"
+    >
+      <div class="videoContainer">
+        <iframe
+          src="https://www.youtube.com/embed/IOfvhV31Hos"
+          allowfullscreen
+          class="responsive-iframe"
+        />
       </div>
+      <div class="text-xl pt-4">See it to believe it</div>
     </div>
   </div>
 </template>
@@ -62,12 +63,33 @@ export default {
 </script>
 
 <style>
-.graphicsContainer {
+/* .graphicsContainer {
   height: 24rem;
   background-color: transparent;
+} */
+.graphicsContainer {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 24rem;
 }
 
-.template-graphics {
+.videoContainer {
+  position: relative;
   overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  padding-right: 1rem;
+  background-color: transparent;
 }
 </style>

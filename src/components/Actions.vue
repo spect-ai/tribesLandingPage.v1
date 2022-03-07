@@ -1,7 +1,17 @@
 <template>
-  <div class="actionContainer">
-    <a class="waitlistButton" href="aaa">Sign up for waitlist</a>
-    <a class="communityButton" href="aaa">Join Community</a>
+  <div class="flex ml-16 mt-8 pb-8 mr-16">
+    <a
+      class="waitlistButton"
+      href="https://wnowbi36d0x.typeform.com/to/UAhbB5Xy"
+      target="_blank"
+      >Sign up for waitlist</a
+    >
+    <a
+      class="communityButton"
+      href="https://discord.gg/sbPnAdKA6c"
+      target="_blank"
+      >Join The Community</a
+    >
   </div>
 </template>
 
@@ -12,12 +22,6 @@ export default {
 </script>
 
 <style>
-.actionContainer {
-  display: flex;
-  flex-direction: row;
-  margin: 2rem 0 2rem 5rem;
-}
-
 .waitlistButton {
   background-color: #eaeaea;
   color: #00194a;
@@ -27,7 +31,6 @@ export default {
   letter-spacing: 1px;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 0.3em;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -50,7 +53,6 @@ export default {
   letter-spacing: 1px;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 0.3em;
   display: flex;
   flex-direction: row;
   align-items: center;
