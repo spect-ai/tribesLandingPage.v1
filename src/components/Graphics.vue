@@ -2,8 +2,10 @@
   <div class="grid sm:grid-cols-1 xl:grid-cols-5">
     <div class="col-span-3">
       <div class="grid md:grid-cols-7 sm:grid-cols-1">
-        <div class="md:col-span-2 flex flex-col justify-center items-center">
-          <div class="graphicsContainer">
+        <div
+          class="md:col-span-2 flex flex-col justify-center items-center mx-12 md:mx-0"
+        >
+          <div class="graphicsContainer md:mx-0">
             <iframe
               src="https://my.spline.design/tasks-a6ad2faee70628e9036030d14d9d1d64/"
               frameborder="0"
@@ -14,7 +16,9 @@
           </div>
           <div class="text-xl">Manage tasks</div>
         </div>
-        <div class="md:col-span-3 flex flex-col justify-center items-center">
+        <div
+          class="md:col-span-3 flex flex-col justify-center items-center mx-12 md:mx-0"
+        >
           <div class="graphicsContainer">
             <iframe
               allowtransparency="true"
@@ -27,7 +31,9 @@
           </div>
           <div class="text-xl">Value Contributions</div>
         </div>
-        <div class="md:col-span-2 flex flex-col justify-center items-center">
+        <div
+          class="md:col-span-2 flex flex-col justify-center items-center mx-12 md:mx-0"
+        >
           <div class="graphicsContainer">
             <iframe
               src="https://my.spline.design/coins2-15a02bbe78d293f166ec18b74a085dca/"
@@ -42,7 +48,7 @@
       </div>
     </div>
     <div
-      class="col-span-2 flex flex-col justify-center items-center mt-16 sm:mt-8 xl:mt-4 ml-[5.5rem] md:mx-32 lg:mx-16 lg:mx-0"
+      class="col-span-2 flex flex-col justify-center items-center mt-16 sm:mt-8 ml-[5.5rem] xl:mt-4 md:mx-32 lg:mx-16 lg:mx-0"
     >
       <div class="videoContainer">
         <iframe
