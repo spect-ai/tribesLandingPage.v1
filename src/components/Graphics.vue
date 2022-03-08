@@ -1,55 +1,6 @@
 <template>
-  <div class="grid sm:grid-cols-1 xl:grid-cols-5">
-    <div class="col-span-3">
-      <div class="grid md:grid-cols-7 sm:grid-cols-1">
-        <div
-          class="md:col-span-2 flex flex-col justify-center items-center mx-12 md:mx-0"
-        >
-          <div class="graphicsContainer md:mx-0">
-            <iframe
-              src="https://my.spline.design/tasks-a6ad2faee70628e9036030d14d9d1d64/"
-              frameborder="0"
-              width="100%"
-              height="100%"
-              class="responsive-iframe"
-            />
-          </div>
-          <div class="text-xl">Manage tasks</div>
-        </div>
-        <div
-          class="md:col-span-3 flex flex-col justify-center items-center mx-12 md:mx-0"
-        >
-          <div class="graphicsContainer">
-            <iframe
-              allowtransparency="true"
-              src="https://my.spline.design/epoch2-f586b2682c76a4b5cd4a48c3a5abe3f5/"
-              frameborder="0"
-              width="100%"
-              height="100%"
-              class="responsive-iframe"
-            />
-          </div>
-          <div class="text-xl">Value Contributions</div>
-        </div>
-        <div
-          class="md:col-span-2 flex flex-col justify-center items-center mx-12 md:mx-0"
-        >
-          <div class="graphicsContainer">
-            <iframe
-              src="https://my.spline.design/coins2-15a02bbe78d293f166ec18b74a085dca/"
-              frameborder="0"
-              width="100%"
-              height="100%"
-              class="responsive-iframe"
-            />
-          </div>
-          <div class="text-xl">Pay in crypto</div>
-        </div>
-      </div>
-    </div>
-    <div
-      class="col-span-2 flex flex-col justify-center items-center mt-16 sm:mt-8 ml-[5.5rem] xl:mt-4 md:mx-32 lg:mx-16 lg:mx-0"
-    >
+  <div class="grid grid-cols-1 pb-8">
+    <div class="flex flex-col justify-center items-center mt-8 mx-4 lg:mx-40">
       <div class="videoContainer">
         <iframe
           src="https://www.youtube.com/embed/IOfvhV31Hos"
@@ -57,14 +8,76 @@
           class="responsive-iframe"
         />
       </div>
-      <div class="text-xl pt-4">See it to believe it</div>
+    </div>
+    <Actions />
+    <div
+      class="grid grid-cols-1 lg:grid-cols-2 flex flex-col justify-center items-center mx-4 md:mx-0"
+    >
+      <div class="graphicsContainer md:mx-0">
+        <iframe
+          src="https://my.spline.design/tasks-a6ad2faee70628e9036030d14d9d1d64/"
+          frameborder="0"
+          width="100%"
+          height="100%"
+          class="responsive-iframe"
+        />
+      </div>
+      <div
+        class="flex flex-row justify-center items-center text-[1.5em] lg:text-[2em]"
+      >
+        Manage tasks
+      </div>
+    </div>
+    <div
+      class="grid grid-cols-1 lg:grid-cols-2 flex flex-col justify-center items-center mx-4 md:mx-0"
+    >
+      <div
+        class="hidden lg:flex flex flex-row justify-center items-center text-[1.5em] lg:text-[2em]"
+      >
+        Value Contributions
+      </div>
+      <div class="graphicsContainer">
+        <iframe
+          allowtransparency="true"
+          src="https://my.spline.design/epoch3-cf7ca0f31721dbf7a8ec44b3004156c4/"
+          frameborder="0"
+          width="100%"
+          height="100%"
+          class="responsive-iframe"
+        />
+      </div>
+      <div
+        class="lg:hidden flex flex flex-row justify-center items-center text-[1.5em] lg:text-[2em]"
+      >
+        Value Contributions
+      </div>
+    </div>
+    <div
+      class="grid grid-cols-1 lg:grid-cols-2 flex flex-col justify-center items-center mx-4 md:mx-0"
+    >
+      <div class="graphicsContainer">
+        <iframe
+          src="https://my.spline.design/coins2-15a02bbe78d293f166ec18b74a085dca/"
+          frameborder="0"
+          width="100%"
+          height="100%"
+          class="responsive-iframe"
+        />
+      </div>
+      <div
+        class="flex flex-row justify-center items-center text-[1.5em] lg:text-[2em]"
+      >
+        Pay in crypto
+      </div>
     </div>
   </div>
 </template>
 
 <script lang="ts">
+import Actions from "./Actions.vue";
 export default {
   name: "Graphics",
+  components: { Actions },
 };
 </script>
 
@@ -95,7 +108,6 @@ export default {
   right: 0;
   width: 100%;
   height: 100%;
-  padding-right: 1rem;
   background-color: transparent;
 }
 </style>

@@ -1,13 +1,13 @@
 <template>
-  <div class="flex ml-16 mt-8 pb-8 mr-16">
+  <div class="flex flex-row justify-center items-center ml-16 mt-8 pb-8 mr-16">
     <a
-      class="waitlistButton"
+      class="waitlistButton p-2 lg:p-4 mr-4 lg:mr-16 text-[0.5em] lg:text-sm"
       href="https://wnowbi36d0x.typeform.com/to/UAhbB5Xy"
       target="_blank"
       >Sign up for waitlist</a
     >
     <a
-      class="communityButton"
+      class="communityButton p-2 lg:p-4 mr-4 lg:mr-16 text-[0.5em] lg:text-sm"
       href="https://discord.gg/sbPnAdKA6c"
       target="_blank"
       >Join The Community</a
@@ -34,8 +34,6 @@ export default {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 1rem 1rem;
-  margin-right: 1rem;
   transition: all 0.5s ease-in-out;
 }
 
@@ -56,7 +54,6 @@ export default {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 1rem 1rem;
   transition: all 0.5s ease-in-out;
 }
 
