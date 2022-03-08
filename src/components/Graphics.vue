@@ -1,6 +1,6 @@
 <template>
   <div class="grid grid-cols-1 pb-8">
-    <div class="flex flex-col justify-center items-center mt-8 mx-4 lg:mx-40">
+    <div class="flex flex-col justify-center items-center mt-8 mx-4 lg:mx-96">
       <div class="videoContainer">
         <iframe
           src="https://www.youtube.com/embed/IOfvhV31Hos"
