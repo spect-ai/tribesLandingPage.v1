@@ -7,7 +7,7 @@
       >Sign up for waitlist</a
     >
     <a
-      class="communityButton p-2 lg:p-4 mr-4 lg:mr-16 text-[0.5em] lg:text-sm"
+      class="communityButton p-2 lg:p-4 text-[0.5em] lg:text-sm"
       href="https://discord.gg/sbPnAdKA6c"
       target="_blank"
       >Join The Community</a

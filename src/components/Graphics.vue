@@ -3,7 +3,7 @@
     <div class="flex flex-col justify-center items-center mt-8 mx-4 lg:mx-96">
       <div class="videoContainer">
         <iframe
-          src="https://www.youtube.com/embed/IOfvhV31Hos"
+          src="https://www.youtube.com/embed/xLqz3w3le18"
           allowfullscreen
           class="responsive-iframe"
         />
