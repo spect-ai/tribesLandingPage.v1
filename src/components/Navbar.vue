@@ -6,7 +6,7 @@
         alt="logo"
         class="logo"
       />
-      <div class="name">spect tribes</div>
+      <div class="name">spect network</div>
     </div>
   </div>
 </template>

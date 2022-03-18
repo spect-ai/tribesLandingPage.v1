@@ -25,7 +25,13 @@
       <div
         class="flex flex-row justify-center items-center text-[1.5em] lg:text-[2em]"
       >
-        Manage tasks
+        <div class="lg:flex flex flex-col">
+          <div>Manage Projects</div>
+          <div class="text-[0.5em] lg:text-[1em]">
+            Manage your projects and bounties all in one platform to increase
+            visibility among your DAO contributors.
+          </div>
+        </div>
       </div>
     </div>
     <div
@@ -34,7 +40,13 @@
       <div
         class="hidden lg:flex flex flex-row justify-center items-center text-[1.5em] lg:text-[2em]"
       >
-        Value Contributions
+        <div class="lg:flex flex flex-col">
+          <div>Fund Contributors</div>
+          <div class="text-[0.5em] lg:text-[1em]">
+            Reward contributors on bounty completion and tip each other
+            retroactively to incentivize great work!
+          </div>
+        </div>
       </div>
       <div class="graphicsContainer">
         <iframe
@@ -45,11 +57,6 @@
           height="100%"
           class="responsive-iframe"
         />
-      </div>
-      <div
-        class="lg:hidden flex flex flex-row justify-center items-center text-[1.5em] lg:text-[2em]"
-      >
-        Value Contributions
       </div>
     </div>
     <div
@@ -67,7 +74,13 @@
       <div
         class="flex flex-row justify-center items-center text-[1.5em] lg:text-[2em]"
       >
-        Pay in crypto
+        <div class="lg:flex flex flex-col">
+          <div>Pay using your Favorite Token</div>
+          <div class="text-[0.5em] lg:text-[1em]">
+            Payout your contributors on any EVM chain with any token. You can
+            even plug in your native DAO token!
+          </div>
+        </div>
       </div>
     </div>
   </div>
