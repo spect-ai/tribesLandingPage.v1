@@ -11,7 +11,7 @@
     </div>
     <Actions />
     <div
-      class="grid grid-cols-1 lg:grid-cols-2 flex flex-col justify-center items-center mx-4 md:mx-0"
+      class="grid grid-cols-1 lg:grid-cols-2 flex flex-col justify-center items-center mt-16 mx-4 md:mx-0"
     >
       <div class="graphicsContainer md:mx-0">
         <iframe
@@ -22,13 +22,11 @@
           class="responsive-iframe"
         />
       </div>
-      <div
-        class="flex flex-row justify-center items-center text-[1.5em] lg:text-[2em]"
-      >
+      <div class="flex flex-row justify-center items-center">
         <div class="lg:flex flex flex-col">
-          <div>Manage Projects</div>
-          <div class="text-[0.5em] lg:text-[1em]">
-            Manage your projects and bounties all in one platform to increase
+          <div class="text-[1.5em] lg:text-[2em]">Manage Projects</div>
+          <div class="text-[0.5em] lg:text-[1em] w-96 mt-4">
+            Manage your projects and bounties all in one place to increase
             visibility among your DAO contributors.
           </div>
         </div>
@@ -37,12 +35,10 @@
     <div
       class="grid grid-cols-1 lg:grid-cols-2 flex flex-col justify-center items-center mx-4 md:mx-0"
     >
-      <div
-        class="hidden lg:flex flex flex-row justify-center items-center text-[1.5em] lg:text-[2em]"
-      >
+      <div class="hidden lg:flex flex flex-row justify-center items-center">
         <div class="lg:flex flex flex-col">
-          <div>Fund Contributors</div>
-          <div class="text-[0.5em] lg:text-[1em]">
+          <div class="text-[1.5em] lg:text-[2em]">Fund Contributors</div>
+          <div class="text-[0.5em] lg:text-[1em] w-96 mt-4">
             Reward contributors on bounty completion and tip each other
             retroactively to incentivize great work!
           </div>
@@ -71,12 +67,12 @@
           class="responsive-iframe"
         />
       </div>
-      <div
-        class="flex flex-row justify-center items-center text-[1.5em] lg:text-[2em]"
-      >
+      <div class="flex flex-row justify-center items-center">
         <div class="lg:flex flex flex-col">
-          <div>Pay using your Favorite Token</div>
-          <div class="text-[0.5em] lg:text-[1em]">
+          <div class="text-[1.5em] lg:text-[2em]">
+            Pay using your Favorite Tokens
+          </div>
+          <div class="text-[0.5em] lg:text-[1em] w-96 mt-4">
             Payout your contributors on any EVM chain with any token. You can
             even plug in your native DAO token!
           </div>
