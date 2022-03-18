@@ -67,7 +67,7 @@
     <div
       class="grid grid-cols-1 lg:grid-cols-2 flex flex-col justify-center items-center mx-4 md:mx-0"
     >
-      <div class="mobileGraphicsContainer lg:graphicsContainer">
+      <div class="graphicsContainer">
         <iframe
           src="https://my.spline.design/coins2-15a02bbe78d293f166ec18b74a085dca/"
           frameborder="0"
@@ -97,14 +97,14 @@
     <div class="flex flex-row justify-center items-center mt-8">
       <div class="mb-8 mr-8">Reach out to us:</div>
       <a
-        class="communityButton p-2 lg:p-4 text-[0.5em] lg:text-sm mb-8"
+        class="communityButton p-2 lg:p-4 text-[0.5em] lg:text-sm mb-8 mr-2"
         href="https://discord.gg/sbPnAdKA6c"
         target="_blank"
         ><i class="fa-brands fa-discord"></i
       ></a>
       <a
         class="communityButton p-2 lg:p-4 text-[0.5em] lg:text-sm mb-8"
-        href="https://discord.gg/sbPnAdKA6c"
+        href="https://twitter.com/joinspect"
         target="_blank"
         ><i class="fa-brands fa-twitter"></i
       ></a>
@@ -121,31 +121,24 @@ export default {
 </script>
 
 <style>
-/* .graphicsContainer {
-  height: 24rem;
-  background-color: transparent;
-} */
 .graphicsContainer {
   position: relative;
   overflow: hidden;
   width: 100%;
   height: 24rem;
 }
-
 .mobileGraphicsContainer {
   position: relative;
   overflow: hidden;
   width: 80%;
   height: 24rem;
 }
-
 .videoContainer {
   position: relative;
   overflow: hidden;
   width: 100%;
   padding-top: 56.25%;
 }
-/* Then style the iframe to fit in the container div with full height and width */
 .responsive-iframe {
   position: absolute;
   top: 0;
