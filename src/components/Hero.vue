@@ -3,8 +3,9 @@
     <div
       class="text-[1.3em] sm:text-[2em] md:text-[2.5em] lg:text-[3em] flex flex-row justify-center items-center"
     >
-      <div>Organize the chaos In your</div>
-      <div class="tribe">&nbsp;DAO</div>
+      <div>A</div>
+      <div class="tribe">&nbsp;playground&nbsp;</div>
+      <div>of coordination tools</div>
     </div>
     <Graphics />
   </div>

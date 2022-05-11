@@ -3,7 +3,7 @@
     <div class="flex flex-col justify-center items-center mt-8 mx-4 lg:mx-96">
       <div class="videoContainer">
         <iframe
-          src="https://www.youtube.com/embed/xLqz3w3le18"
+          src="https://www.youtube.com/embed/xosyFKSJvjQ"
           allowfullscreen
           class="responsive-iframe"
         />
@@ -14,12 +14,9 @@
       class="grid grid-cols-1 lg:grid-cols-2 flex flex-col justify-center items-center mt:8 lg:mt-16 mx-4 md:mx-0"
     >
       <div class="graphicsContainer md:mx-0">
-        <iframe
-          src="https://my.spline.design/tasks-a6ad2faee70628e9036030d14d9d1d64/"
-          frameborder="0"
-          width="100%"
-          height="100%"
-          class="responsive-iframe"
+        <img
+          class="object-contain h-full w-full m-8 pl-16"
+          src="/src/assets/board1.png"
         />
       </div>
       <div class="flex flex-row justify-center items-center">
@@ -45,13 +42,9 @@
         </div>
       </div>
       <div class="graphicsContainer">
-        <iframe
-          allowtransparency="true"
-          src="https://my.spline.design/epoch3-cf7ca0f31721dbf7a8ec44b3004156c4/"
-          frameborder="0"
-          width="100%"
-          height="100%"
-          class="responsive-iframe"
+        <img
+          class="object-contain m-8 pr-24 pt-16"
+          src="/src/assets/epoch1.png"
         />
       </div>
     </div>
@@ -68,13 +61,7 @@
       class="grid grid-cols-1 lg:grid-cols-2 flex flex-col justify-center items-center mx-4 md:mx-0"
     >
       <div class="graphicsContainer">
-        <iframe
-          src="https://my.spline.design/coins2-15a02bbe78d293f166ec18b74a085dca/"
-          frameborder="0"
-          width="100%"
-          height="100%"
-          class="responsive-iframe"
-        />
+        <img src="/src/assets/coins1.png" />
       </div>
       <div class="flex flex-row justify-center items-center">
         <div class="lg:flex flex flex-col">
